@@ -8,11 +8,11 @@ Presentación de la tecnología AngularJS en la asignatura sistemas y tecnologia
 
 La aplicacion para trabajar en el taller sera una aplicacion para disponer de un listado de los guachinches de la isla, ademas de la publicacion de los mismo
 
-** Servidor **
+**Servidor**
 - MongoDB
 - Express
 - NodeJs
-** Cliente **
+**Cliente**
 - AngularJS
 
 ## Recursos y enlaces de interés
