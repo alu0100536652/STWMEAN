@@ -12,6 +12,7 @@ La aplicacion para trabajar en el taller sera una aplicacion para disponer de un
 - MongoDB
 - Express
 - NodeJs
+- 
 **Cliente**
 - AngularJS
 

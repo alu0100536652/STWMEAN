@@ -1,0 +1,56 @@
+header {
+  height: 50px;
+  margin-bottom: 9%;
+  background-color:#f58733;
+}
+
+.logo {
+  text-align: left;
+}
+
+.logo a {
+  color: #FFF;
+  text-transform: uppercase;
+	text-decoration: none;
+	font-size: 11px;
+	font-weight: 600;
+	letter-spacing: .2rem;
+	line-height: 5rem;
+}
+
+nav {
+  float: right;
+}
+
+nav a {
+  margin-right: 20px;
+  color: #FFF;
+  text-transform: uppercase;
+	text-decoration: none;
+	font-size: 11px;
+	font-weight: 600;
+	letter-spacing: .2rem;
+	line-height: 5rem;
+	text-align: right;
+}
+
+nav a:hover {
+  color: #FFF;
+  text-decoration: underline;
+}
+
+
+@media (max-width: 550px) {
+  .nav {
+    display:none;
+  }
+  
+  .logo {
+    text-align: center;
+  }
+  
+  .logo a{
+	  font-weight: bold;
+	  font-size: 13px;
+  }
+}
