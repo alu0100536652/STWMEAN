@@ -1,7 +1,18 @@
-<div class="container">
-    <div class="row">
-        <div class="one-half column">
-            <h4>Nuevo</h4>
+<div class="container" ng-controller="createNewGuachincheController">
+    <div ng-show="!screen">
+        <h4>Nuevo Guachinche</h4>
+        <div class="row">
+            <div class="one-half column">
+                <form-add-guachinche></form-add-guachinche>
+            </div>
+            <div class="one-half column">
+                <label>Previsualización</label>
+                <guachinche-detail ng-show="name"></guachinche-detail>
+            </div>
         </div>
+    </div>
+    <div ng-show="screen">
+        <h4> {{ message }} </h4>
+        <a class="button button-primary" href="/">Ir a inicio!</a>
     </div>
 </div>

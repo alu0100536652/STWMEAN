@@ -1,0 +1,17 @@
+<form ng-submit="insertGuachinche()">
+    <div class="row">
+        <div class="one-half column">
+            <label>Nombre del guachinche</label>
+            <input class="u-full-width" type="text" placeholder="Guachinche Pepe" ng-model="name">
+        </div>
+        <div class="one-half column">
+            <label>Municipio del guachinche</label>
+            <select class="u-full-width" ng-model="city" ng-options="municipio for municipio in municipios.name">
+              <option value="">Elija el municipio</option>
+            </select>
+        </div>
+    </div>
+    <label>Dirección del guachinche</label>
+    <input class="u-full-width" type="text" placeholder="Calle La Oliva, 20" ng-model="direction">
+    <input class="button" type="submit" value="Crear Guachinche">
+</form>
