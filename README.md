@@ -12,10 +12,12 @@ La aplicacion para trabajar en el taller sera una aplicacion para disponer de un
 - MongoDB
 - Express
 - NodeJs
-- 
+
 **Cliente**
 - AngularJS
 
 ## Recursos y enlaces de interés
+
+- En la carpeta docs del repositorio se aloja la presentacion del taller y el ejercicio practico.
 
 [Web del autor](http://alu0100536652.github.io/)

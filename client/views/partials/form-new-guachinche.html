@@ -2,7 +2,7 @@
     <div class="row">
         <div class="one-half column">
             <label>Nombre del guachinche</label>
-            <input class="u-full-width" type="text" placeholder="Guachinche Pepe" ng-model="name">
+            <input class="u-full-width" ng-class="{'redAlert': count > 0}" type="text" placeholder="Guachinche Pepe" ng-model="name" ng-change="change()">
         </div>
         <div class="one-half column">
             <label>Municipio del guachinche</label>
@@ -13,5 +13,5 @@
     </div>
     <label>Dirección del guachinche</label>
     <input class="u-full-width" type="text" placeholder="Calle La Oliva, 20" ng-model="direction">
-    <input class="button" type="submit" value="Crear Guachinche">
+    <button>Crear Guachinche</button>
 </form>

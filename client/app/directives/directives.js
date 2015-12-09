@@ -14,3 +14,10 @@ directiveModule.directive('guachincheDetail', function() {
     }
 })
 
+directiveModule.directive('guachincheItem', function() {
+    return {
+        restrict: 'E',
+        templateUrl: "views/partials/guachinche-item.html"
+    }
+})
+

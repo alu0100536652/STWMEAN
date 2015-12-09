@@ -3,10 +3,16 @@
         <h4><b>{{ name }}</b></h4>
     </div>
     <div class="content">
-        <label ng-show="city">Municipio</label>
-        {{ city }}
-        <label ng-show="direction">Dirección</label>
-        {{ direction }}
+        <div class="row">
+            <div class="one-half column">
+                <label ng-show="direction">Dirección</label>
+                {{ direction }}
+            </div>
+            <div class="one-half column">
+                <label ng-show="city">Municipio</label>
+                {{ city }}
+            </div>
+        </div>
     </div>
 </div>
 

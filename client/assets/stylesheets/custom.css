@@ -49,14 +49,10 @@ nav a:hover {
     display:none;
   }
   
-  .logo {
-    text-align: center;
+  nav {
+    float: left;
   }
-  
-  .logo a{
-	  font-weight: bold;
-	  font-size: 13px;
-  }
+
 }
 
 .previsualizacion {
@@ -64,7 +60,18 @@ nav a:hover {
   -moz-box-shadow: 0px 0px 2px 1px rgba(0,0,0,0.4);
   box-shadow: 0px 0px 2px 1px rgba(0,0,0,0.4);
   border-radius: 5px;
-  margin-top: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+button {
+  background-color: #e91e63;
+  color: #FFF;
+}
+
+button:hover {
+  color: #FFF;
+  background-color: #c2185b;
 }
 
 .title {
@@ -78,4 +85,17 @@ nav a:hover {
 .content {
   padding: 10px;
   margin-top: 5px;
+}
+
+.titlelist {
+  padding: 10px;
+  height: 40px;
+  color: #FFF;
+  background-color:#3f51b5;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.redAlert[type=text]:focus, .redAlert[type=text]  {
+  border:1px solid red;
 }

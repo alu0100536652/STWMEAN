@@ -9,9 +9,17 @@ exports.guachincheList = function(req, res) {
     })
 }
 
+exports.guachincheDetails = function(req, res) {
+    
+    console.log(req.params['id'])
+    Guachinche.find({name: req.get('name')}, function(err, Guachinche) {
+        if (err) 
+            throw err
+        res.status(200).json({ message: Guachinche.length })
+    })
+}
+
 exports.guachinchePost = function(req, res) {
-    console.log("Data: " + req.body)
-    console.log("Nombre: " + req.body['name'])
     var data = {name: req.body['name'], direction: req.body['direction'], city: req.body['city']}
     Guachinche.count({name: req.body['name']}, function( err, count){
         if(err) throw err
